@@ -7,7 +7,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      textColor: {
+        'gray-300': '#D1D5DB',
+        'yellow-400': '#FBBF24',
+      },
+    },
   },
   plugins: [],
   darkMode: "class",
